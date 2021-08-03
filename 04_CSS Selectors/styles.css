@@ -1,0 +1,12 @@
+#products > p:nth-of-type(odd) {
+  color: blue;
+  font-weight: bold;
+}
+
+a:visited {
+  color: hotpink;
+}
+
+a:hover {
+  color: orange;
+}
