@@ -1,0 +1,11 @@
+#first > :last-child {
+  background-color: yellow;
+}
+
+#second > :last-child {
+  background-color: orange;
+}
+
+#second > :nth-child(2) {
+  background-color: red;
+}

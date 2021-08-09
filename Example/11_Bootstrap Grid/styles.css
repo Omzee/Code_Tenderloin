@@ -1,0 +1,7 @@
+#yellow > :last-child {
+  background-color: gold;
+}
+
+#red > :last-child {
+  background-color: red;
+}
