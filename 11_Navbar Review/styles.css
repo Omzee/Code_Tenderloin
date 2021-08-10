@@ -1,0 +1,39 @@
+body {
+  height: 10000px;
+}
+
+nav {
+  background-color: #ffebc9;
+  border: 3px dotted #d79771;
+  position: fixed;
+  width: 99%;
+}
+
+ul {
+  display: flex;
+  justify-content: flex-start;
+  list-style: none;
+}
+
+li {
+  margin: 20px;
+  font-size: 150%;
+  font-family: "Playfair Display", serif;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  background-color: #d79771;
+  padding: 10px;
+  border-radius: 10%;
+}
+
+/* a:visited {
+  color: wheat;
+} */
+
+a:hover {
+  color: #ffebc9;
+  background-color: #b05b3b;
+}

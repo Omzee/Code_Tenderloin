@@ -1,0 +1,33 @@
+body {
+  display: grid;
+  row-gap: 10px;
+  column-gap: 3px;
+  grid-template-columns: 30fr 70fr;
+  grid-template-rows: repeat(3, 100px);
+  grid-template-areas:
+    "header header"
+    "sidebar main"
+    "footer footer";
+}
+
+header {
+  grid-area: header;
+  /* background: rgb(9, 121, 96);
+  background: linear-gradient(
+    90deg,
+    rgba(9, 121, 96, 1) 0%,
+    rgba(0, 234, 255, 1) 100%
+  ); */
+}
+
+aside {
+  grid-area: sidebar;
+}
+
+main {
+  grid-area: main;
+}
+
+footer {
+  grid-area: footer;
+}
